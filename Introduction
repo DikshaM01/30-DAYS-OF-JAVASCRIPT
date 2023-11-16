@@ -14,4 +14,22 @@ it will give output as 1.
 num=5;
 console.log(num) ->it will give error as uncaught syntax error :missing initializer in const declaration
 ->const value will never get changed-> for example -> const pi=3.14159;
+->we can also declare it with using 'var' keyword 
+-> in javascript the number can be flating type or number also
+->when any variable is not defined then and if they are asked in the output then it will give undefined output
+-> const variable;
+  console.log(variable)->undefined
+-> const emptyvariable=null;
+  console.log(emptyvaribale);->null
+->The main differences between var and let in JavaScript relate to their scope and hoisting behavior:
+Scope:
 
+    var: Variables declared with var are function-scoped or globally-scoped. They are hoisted to the top of their function scope and can be accessed anywhere within that function, regardless of where they are declared. If declared outside any function, they become globally scoped.
+
+    let: Variables declared with let are block-scoped. They are only accessible within the block (enclosed by curly braces {}) where they are declared. let variables are not hoisted to the top of the block, and they exhibit what's called the "temporal dead zone," meaning you can't access them before they are declared within the block.
+
+Hoisting:
+
+    var: Variables declared with var are hoisted to the top of their function scope. This means that even if you declare a var variable at the bottom of a function, JavaScript will hoist it to the top during the compilation phase, making it accessible throughout the function.
+
+    let: Unlike var, variables declared with let are hoisted to the top of their block scope but not initialized. Accessing a let variable before its declaration results in a ReferenceError due to the temporal dead zone. This means that the variable exists, but you can't access it until it's declared in the code.
