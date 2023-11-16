@@ -1,0 +1,17 @@
+->console.log(1) ->it will output as 1 , it will simply displays information in any javascript console
+->variables are containers that store the information for later use
+->let test; //where let is the variable keyword which is used to declaring the variable
+->let test; console.log(test); -> it will output undefined because the test variable is only declared not 
+initialized. we can assign the variable using assignement operator
+->let test;
+  test=1;
+  console.log(test)
+it will give output as 1.
+->we can also create a variable using const keyword for example const test=5;
+-> the difference between let and const is that you cannot assign a new value to const.
+->if you are using const you must initialize it also. you cant just declare it.
+->const num;
+num=5;
+console.log(num) ->it will give error as uncaught syntax error :missing initializer in const declaration
+->const value will never get changed-> for example -> const pi=3.14159;
+
