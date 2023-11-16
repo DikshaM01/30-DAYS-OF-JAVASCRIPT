@@ -6,3 +6,14 @@ it will output true.
 -> != not equal to
 -> > greater than and >= greater than equal to
 -> < less than and <= less than equal to
+-> + addition and concatenation(for strings)
+-> when combining two different data types . the default primitive value is a string, so when you try to
+  add a number to a string , javascript will take number as a string
+for example console.log(1+"1");->11
+-> - subtraction,* multiplication , / division , % modulous operator 
+-> /=,*=,-=,+=,%=
+-> Math.abs =positve value
+  Math.exp= calculates e to the power of number
+  Math.pow(x,y) =calculate the result of x to the power of y
+  Math.floor =remove the fraction part of a number
+  Math.random() will give random number
