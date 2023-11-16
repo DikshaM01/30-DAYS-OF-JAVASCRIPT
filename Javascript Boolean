@@ -1,0 +1,20 @@
+->to store yes or no,true or false you can use boolens for example const isonsale=true;
+-> let isOnSale=true;
+console.log(isOnSale);
+isOnSale=false;
+console.log(isOnSale);->it will output true or false
+->there is a boolean function Boolean()
+  console.log(Boolean(100));  ->it will output True
+-> in javascript 
+false
+null
+undefined
+0
+-0
+NaN
+All empty String('') all are false
+->-5 is true
+->let num = 5;
+num = 0;
+const bool = Boolean(bool);
+console.log(bool);
