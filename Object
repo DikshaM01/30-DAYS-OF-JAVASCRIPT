@@ -1,0 +1,22 @@
+-> to initialize an object we use curly braces
+var emptyobject={}; //empty object
+var personobject={
+firstname:"john";
+lastname:"smith"; }
+-> members of objects can be addressed using the bracket operator[] and dot operator is also used
+var personobject={
+firstname:"JOhn";
+lastname:"Smith";
+}
+personobject.age=23;
+personobject["salary"]=14000;
+
+//iterating
+we use hasownproperty method to check that the member in fact belongs to the object
+for(var number in personobject)
+{
+if(personobject.hasOwnProperty(member))
+{
+console.log(member); //it will print all the values
+}
+}
