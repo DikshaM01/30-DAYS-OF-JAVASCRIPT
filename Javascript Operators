@@ -1,0 +1,8 @@
+-> == is equal to comparison operator for example 2==2
+-> const priceone=10;
+   const pricetwo=10;
+   console.log(priceone==pricetwo)
+it will output true.
+-> != not equal to
+-> > greater than and >= greater than equal to
+-> < less than and <= less than equal to
