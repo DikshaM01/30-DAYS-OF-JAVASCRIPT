@@ -1,0 +1,47 @@
+-> var myArray=[1,2,3];
+-> var thesamearray=new Array(1,2,3);
+->index starts from 0
+-> console.log(myArray[1]); //prints out 2
+-> var myArray=[];//it is empty
+  myArray[3]='hello';
+  console.log(myArray);
+  output-> undefined,undefined,undefined,'hello'
+-> you can store any type of  data in array
+var myArray=["string",10,{}];
+->Arraus can also function as a stack. The push and pop methods insert and remove variables from the end of the array
+var mystack=[]//defined as empty
+mystack.push(1);
+mystack.push(2);
+mystack.push(3);
+console.log(mystack); -> it will print 1,2,3
+console.log(mystack.pop());->it will pop what came last ->output 3
+-> stack is done from the end of the array but queue will work from the beginning of the array
+-> the method we are using is 'unshift' and 'shift' .
+-> we can use the push method same as shift
+var myqueue=[]
+myqueue.push(1);
+myqueue.push(2);
+myqueue.push(3);
+console.log(myqueue.shift());->1 //it is removing the element from first
+console.log(myqueue.shift());->2
+console.log(myqueue.shift());->3
+-> the shift method will not change the order and unshift() method is used to insert the value at the beginning
+  myarray=[1,2,3];
+myarray.unshift(0);
+console.log(myarray);->0,1,2,3
+
+//splicing
+splicing arrays in javascript removes a certain part from an array to create a new array
+var myarray=[0,1,2,3,4,5,6,7,8];
+var splice=myarray.splice(3,5);//remove 5 numbers from index 3
+console.log(splice); //3,4,5,6,7
+console.log(myarray); //0,1,2,8
+User
+var myArray = [true, "What is the meaning of life?"];
+myArray.push(42);
+myArray.shift(); //it will remove first element
+
+console.log(myArray[0]);
+console.log(myArray[1]); i did nt understand the shift part
+
+
