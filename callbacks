@@ -1,0 +1,12 @@
+callbacks in javascript are functions that are passed as arguments to other functinsm
+why we use callbacks?
+  this is very important feature of the asynchronous programming and it enables the function that receives
+  the callback to call our code when it finishes the long task and allowing us to continue the execution
+  of the code
+var callback=function(){
+console.log("Done!"); }
+setTimeOut(callback,5000);
+
+setTimeout(function() {
+    console.log("Done!");
+}, 5000);
