@@ -1,0 +1,29 @@
+-> if statement
+  returns true or false
+to know the value if it is true then we use confirm() function
+if (confirm("Are you john smith"))
+{
+console.log("Hello john");
+}else
+{
+console.log("then what is your name")}
+console.log("1"==1);=true
+-> &&,||,!(NOt operator)
+-> switch statement is same as c but one differneve is that it will take strings also
+var rank = "Commander";
+switch(rank)
+{
+    case "Private":
+    case "Sergeant":
+        console.log("You are not authorized.");
+        break;
+    case "Commander":
+        console.log("Hello commander! what can I do for you today?");
+        break;
+    case "Captain":
+        console.log("Hello captain! I will do anything you wish.");
+        break;
+    default:
+        console.log("I don't know what your rank is.");
+        break;
+}
