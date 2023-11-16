@@ -1,0 +1,9 @@
+-> Functions are code blocks that can have arguments and functions have their own scope. 
+-> there are two types of functions i.e named functions,anonymous functions
+function greet(name){
+return "hello"+name+"!"; }
+console.log(greet(eric));}
+//anonymous function
+var greet=function(name){
+return  "hello"+name+"!"; }
+console.log(greet("eric"));}
