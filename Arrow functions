@@ -1,0 +1,4 @@
+arrow operators are often used as callbacks of native js functions like map,filter,sort
+()=>{}
+const greet=(name)=>{return "hello"+name+"!";}
+console.log(greet("eric"));
