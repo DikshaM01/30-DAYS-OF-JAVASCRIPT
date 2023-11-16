@@ -1,0 +1,27 @@
+-> the for statement
+
+for( var i=0;i<3;i++) // initialization,condition,increment
+{
+console.log(i);
+} -> 0 1 2
+var myarray=[1,2,3];
+for(var i=0;i<myarray.length();i++)
+{
+console.log(i); //1,2,3
+}
+
+->while statement it will check if an expression evaluates to true and runs as long as it says true
+var i=99;
+while(i>0)
+{
+console.log(i);
+i--;}
+
+->break and continue statement
+the break will stop the execution for the loop and continue statement will skips the rest of the loop 
+and jumps back to the beginning of the loop
+
+-> for (var i=0;i<myArray.length;i++)
+{
+    console.log(myArray[i]);
+}
