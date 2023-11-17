@@ -23,3 +23,22 @@ for example console.log(1+"1");->11
 -> Unary (-) This is a unary operator i.e. it operates on a single operand. It gives the negation of an operand.
 Syntax:
 -a
+let obj1={'val1':'value'}
+let obj2={'val2':'value'}
+console.log(obj1.val1=='value');//true
+console.log(obj1==obj2);//false
+console.log(obj1.val1==obj2.val2);//true
+
+console.log(0==undefined)//false
+console.log(null==undefined)//true
+
+Strict equality (===): 
+
+This operator is used to compare the equality of two operands with type. If both value and type are equal then the condition is true otherwise false.
+let val1 =5;
+let val2='5';
+console.log(val1===val2)//true
+console.log(val1===6)//false
+
+
+Strict Inequality !==
