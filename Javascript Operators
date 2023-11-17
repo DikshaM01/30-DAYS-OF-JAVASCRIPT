@@ -17,3 +17,9 @@ for example console.log(1+"1");->11
   Math.pow(x,y) =calculate the result of x to the power of y
   Math.floor =remove the fraction part of a number
   Math.random() will give random number
+-> Template literals dont use single quote or double quote to specify strings. it uses `backtick character`
+->-4 ** 2 // This is an incorrect expression
+-(4 ** 2) gives -16, this is a correct expression
+-> Unary (-) This is a unary operator i.e. it operates on a single operand. It gives the negation of an operand.
+Syntax:
+-a
