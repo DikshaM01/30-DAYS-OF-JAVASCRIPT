@@ -1,0 +1,19 @@
+1.converting values to string
+2.converting values to numbers
+IMPLICIT CONVERSION
+Input: "2" + "3"
+Output: "23"
+here + operator stands for string concatenation in this case.
+But "3" - "1" gives output 2 by using Implicit Conversion.
+->to convert into string.. variableName.toString(base)
+     for example-> var v=1555;
+                   var s=v.toString();
+       output-> now s conatains "1555"
+-> we can use Number() function  in javascript to convert a value to a number. It can convert any 
+numerical text and boolean value to a number. 
+It case of strings of non-numbers it will convert it to a NaN(not a number)
+Input:
+var s = "144";
+var n = Number(s);
+Output:
+now n contain 144(Number).
