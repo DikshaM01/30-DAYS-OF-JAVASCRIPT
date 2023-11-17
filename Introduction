@@ -33,3 +33,15 @@ Hoisting:
     var: Variables declared with var are hoisted to the top of their function scope. This means that even if you declare a var variable at the bottom of a function, JavaScript will hoist it to the top during the compilation phase, making it accessible throughout the function.
 
     let: Unlike var, variables declared with let are hoisted to the top of their block scope but not initialized. Accessing a let variable before its declaration results in a ReferenceError due to the temporal dead zone. This means that the variable exists, but you can't access it until it's declared in the code.
+
+
+->The first character must be a letter, an underscore (_), or a dollar sign ($). Subsequent characters may be any letter or digit or an underscore or dollar sign. 
+
+
+
+var                                                  	let	                                                const
+The scope of a var variable is functional scope.	The scope of a let variable is block scope.	               The scope of a const variable is block scope.
+It can be updated and re-declared into the scope.	It can be updated but cannot be re-declared into the scope.	It cannot be updated or re-declared into the scope.
+It can be declared without initialization.	      It can be declared without initialization.	                It cannot be declared without initialization.
+It can be accessed without initialization as its default value is “undefined”.	It cannot be accessed before declaration otherwise it will give ‘referenceError’.	It cannot be accessed without initialization, as it cannot be declared without initialization.
+Hoisting is done , with initializing as ‘default’ value	Hoisting is done , but not initialized (this is the reason for error when we access the let variable before declaration/initialization).	Hoisting is done, but not initialized (this is the reason for error when we access the const variable before declaration/initialization).
