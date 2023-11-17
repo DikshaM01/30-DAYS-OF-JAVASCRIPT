@@ -1,0 +1,7 @@
+var readline=require('readline');
+var rl=readline.createInterface(process.stdin,process.stdout);
+createInterface() method takes two arguments. The first argument will be for the standard input and the second one will be for reading the standard output. 
+rl.question('what is your age?',(age)=>{
+  console.log('Your age is:'+age);
+  rl.close();
+  });
